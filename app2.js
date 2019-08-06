@@ -8,3 +8,10 @@ app1.get("/",function(req,res){
 app1.listen(8052,function(req,res){
     console.log("server started listening.....");
 })
+app1.get("/books",function(req,res){
+    res.send("books")
+})
+app1.get("/author",function(re,res){
+    res.send("author detils...")
+
+})
